@@ -1,0 +1,165 @@
+body {
+    margin: 0px;
+    background-color: #e51b24;
+    font-family: 'PFDinTextComPro-Bold';
+    src: url('PFDinTextComPro-Bold.ttf') format('truetype');
+}
+
+strong {
+	font-family: 'PFDinTextComPro-Bold';
+}
+
+tr {
+	width: 100%;
+}
+
+td {
+	width: 30%;
+	border-bottom: 1px solid black;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    /*height: 500px;*/
+    text-align: center;
+    background-color: #e51b24;
+
+}
+
+.GA {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	/*position: absolute;*/
+	width: 100%;
+
+	/*margin-left: auto;
+	margin-right: auto;
+*/}
+
+
+.top5 {
+	background-color: white;
+	font-family: georgia;
+	margin-bottom: 20px;
+}
+
+.last {
+	margin-bottom: 40px;
+}
+
+.space  {
+	font-family: georgia;
+	line-height: 25px;
+}
+
+.v2 {
+	/*margin-top: 50px;*/
+	/*font-family: 'georgia', sans-serif;*/
+	/*font-size: 20px;*/
+	font-family: 'PFDinTextComPro-Bold';
+	font-size: 20px;
+}
+
+h1 {
+	/*margin-top: 90px;*/
+	/*font-family: 'georgia', sans-serif;*/
+	/*font-size: 20px;*/
+	font-family: 'PFDinTextComPro-Bold';
+	font-size: 100px;
+}
+
+
+.names {
+	/*margin-top: 90px;*/
+	font-family: 'georgia', sans-serif;
+	font-size: 60px;
+}
+
+p {
+	font-family: 'georgia', sans-serif;
+	font-size: 20px;
+	margin: 0 auto;
+}
+
+
+.enter {
+	margin-top: 30px;
+    position: relative;
+    background-color: black;
+	font-color: white;
+	font-size: 60px;
+	padding: 50px;
+	line-height: 30px;
+	/*text-shadow: 0 -2px 1px rgba(0,0,0,0.5);*/
+	border: 1px solid black;
+	border-radius: 10px;
+	font-family: 'PFDinTextComPro-Bold';
+	letter-spacing: 2px; 
+   /* height: 200px;
+    width: 200px;*/
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+
+}
+
+/* selected link */
+a:active {
+    color: white;
+}
+
+/* unvisited link */
+h4 a:link {
+    color: #e51b24;
+    /*text-decoration: none;*/
+
+}
+
+/* visited link */
+h4 a:visited {
+    color: #e51b24;
+}
+
+/* mouse over link */
+h4 a:hover {
+    color: black;
+
+}
+
+/* selected link */
+h4 a:active {
+    color: blue;
+}
+
+
+.lander-container {
+	width: 90%;
+	margin: 0px auto;
+}
+
+.column1 {
+	width: 47%;
+	float: left;
+	position: relative;
+}
+
+.column2 {
+	width: 47%;
+	float: right;
+	position: relative;
+}
