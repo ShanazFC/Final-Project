@@ -7,6 +7,6 @@ var mySpreadsheet = 'https://docs.google.com/a/generalassemb.ly/spreadsheets/d/1
 $('#Top5').sheetrock({
   url: mySpreadsheet,
   sql: "select A,B,D order by A desc",
-  chunkSize: 10,
+  chunkSize: 40,
   headersOff: true,
 })
