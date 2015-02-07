@@ -40,7 +40,7 @@ strong {
 }
 
 .space  {
-	font-family: georgia;
+	/*font-family: georgia;*/
 	line-height: 25px;
 }
 
@@ -153,4 +153,11 @@ h4 a:active {
 	width: 47%;
 	float: right;
 	position: relative;
+}
+
+/* Table Styling */
+
+tr {
+	font-family: georgia;
+	color: black;
 }
